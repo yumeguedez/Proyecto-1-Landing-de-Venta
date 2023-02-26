@@ -1,5 +1,6 @@
 header {
-    background-color: lightyellow;
+    background-color:  #103f61
+    
 }
 .header {
   display:row;
@@ -23,7 +24,7 @@ header {
     flex-direction: row-reverse;
 }
 .cotizaciones{
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(247, 247, 218);
     gap: 20px;
     padding: 20px;
 
@@ -61,7 +62,7 @@ header {
 }
 
 .conocenos {
-    background-color: lightpink;
+    background-color: gray;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -85,11 +86,16 @@ header {
     margin:0 auto;
 }
 
-.footer{
-    background: rgb(115, 116, 112);
-    display: flex;
-   
+footer{
+    background-color:white
+}
+.table-footer{
+    margin: 0 auto;
+    
 }
 .imgfooter{
+    display:inline-flex;
     width:50px;
+    margin-left: 250px; 
+    justify-content: center;
 }
