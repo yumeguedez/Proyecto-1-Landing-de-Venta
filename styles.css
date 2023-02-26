@@ -99,3 +99,15 @@ footer{
     margin-left: 250px; 
     justify-content: center;
 }
+
+@media(min-width:320px) and (max-width:767) {
+    .producto {
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .producto img{
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr); 
+    }
+  
+} 
